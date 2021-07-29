@@ -1,0 +1,15 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#root {
+  margin: 0;
+  padding: 10vh;
+  background-color: $base-darker;
+  height: max-content;
+  min-height: 100vh;
+  width: 100vw;
+  font-size: 1rem;
+}

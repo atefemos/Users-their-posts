@@ -1,0 +1,72 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  &_sidebar {
+    background-color: $base-color;
+    max-height: max-content;
+    min-height: 80vh;
+    width: 20vw;
+    margin: 2rem;
+    border-radius: 15px;
+    padding: 1rem;
+    box-shadow: 6px 6px 6px 10px rgba(#000000, 0.2);
+    text-align: center;
+  }
+
+  &_main {
+    min-height: 80vh;
+    max-height: max-content;
+    width: 60vw;
+    margin: 2rem;
+    border-radius: 15px;
+    padding: 1rem;
+    box-shadow: 6px 6px 6px 10px rgba(#000000, 0.2);
+    text-align: center;
+    background-color: $base-color;
+  }
+
+  &_input {
+    display: inline-block;
+    min-height: 80px;
+    max-height: max-content;
+    font-size: 1.4rem;
+    padding: 2vh;
+  }
+}
+
+.column {
+  flex-direction: column;
+}
+
+.button {
+  display: block;
+  background-color: $back-g;
+  border-style: none;
+  border-radius: 8px;
+  border: 1px solid $border;
+  margin: 2vh;
+  height: 40px;
+  width: 15vw;
+
+  &:hover,
+  &:focus {
+    background-color: $back-g-darker;
+  }
+}
+
+.box {
+  height: max-content;
+  margin: 2vh;
+  width: 50vw;
+  background-color: $back-g;
+  border-radius: 8px;
+  border: 1px solid $border;
+  font-size: 1.4rem;
+
+  &:hover,
+  &:focus {
+    background-color: $back-g-darker;
+  }
+}
